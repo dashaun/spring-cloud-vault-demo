@@ -63,7 +63,7 @@ Secrets are stored at path: `secret/vaultdemo`
 
 ## 🐳 Docker Setup
 
-The included `docker-compose.yml` provides:
+The included `compose.yml` provides:
 - HashiCorp Vault in development mode
 - In-memory storage (data lost on restart)
 - No TLS (perfect for local development)
