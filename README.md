@@ -88,13 +88,13 @@ curl http://localhost:8200/v1/sys/health
 vault kv list secret/
 
 # Get specific secret
-vault kv get secret/vault-demo
+vault kv get secret/vaultdemo
 ```
 
 ### Application Won't Start
 - Ensure Vault is running and accessible
 - Verify the root token is `myroot`
-- Check that secrets exist at `secret/vault-demo`
+- Check that secrets exist at `secret/vaultdemo`
 - Enable debug logging: `logging.level.org.springframework.cloud.vault=DEBUG`
 
 ## 📚 Learn More
