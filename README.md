@@ -7,13 +7,14 @@ The app was designed as something simple to validate Vault connectivity.
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Docker and Docker Compose
+- Docker and Docker Compose (or similar)
 - Java 17+
 - Maven 3.9+
+- [Vault CLI](https://developer.hashicorp.com/vault/install)
 
 ### 1. Start Vault
 ```bash
-docker-compose up -d
+docker compose up -d
 ```
 
 This starts HashiCorp Vault in development mode:
